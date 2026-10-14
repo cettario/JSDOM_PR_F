@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты - Кофейня Зёрна</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a class="brand" href="index.html">Зёрна</a>
+      <nav aria-label="Главное меню">
+        <a href="index.html">Главная</a>
+        <a href="menu.html">Меню</a>
+        <a class="active" href="contacts.html" aria-current="page">Контакты</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Контакты</h1>
+    <p class="subtitle">Будем рады видеть вас в нашей кофейне.</p>
+    <section class="gallery" data-gallery aria-label="Информация о кофейне">
+      <div class="slides">
+        <article class="slide visible" data-slide aria-hidden="false">
+          <span class="illustration" aria-hidden="true">📍</span>
+          <h2>Наш адрес</h2>
+          <p>Улица Цветочная, 12</p>
+          <p>Вход со стороны двора</p>
+        </article>
+        <article class="slide" data-slide aria-hidden="true">
+          <span class="illustration" aria-hidden="true">🕘</span>
+          <h2>Часы работы</h2>
+          <p>Понедельник - пятница: 8:00-21:00</p>
+          <p>Суббота - воскресенье: 9:00-21:00</p>
+        </article>
+        <article class="slide" data-slide aria-hidden="true">
+          <span class="illustration" aria-hidden="true">✉️</span>
+          <h2>Напишите нам</h2>
+          <p><a class="text-link" href="mailto:hello@zerna.example">hello@zerna.example</a></p>
+          <p>Ответим на ваши вопросы.</p>
+        </article>
+      </div>
+      <div class="controls">
+        <button type="button" data-prev aria-label="Предыдущий раздел">←</button>
+        <span class="counter" data-counter>1 / 3</span>
+        <button type="button" data-next aria-label="Следующий раздел">→</button>
+      </div>
+    </section>
+  </main>
+  <footer>© 2026 Кофейня «Зёрна»</footer>
+</body>
+</html>
